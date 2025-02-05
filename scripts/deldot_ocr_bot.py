@@ -5,7 +5,7 @@ import pandas as pd
 import pdfplumber
 import getpass
 from datetime import datetime
-
+#  function for proccessing pdf
 def deldotprocess():
     try:
         username = getpass.getuser()
